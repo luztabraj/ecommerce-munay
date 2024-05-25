@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>munay</title>
+    <!-- Enlaces a estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Enlaces a fuentes de Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+</head>
+
+<body>
+       <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <i class="bi bi-camera"></i>
+        <h1>MUNAY</h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+            <li><a href="#inicio">INICIO</a></li>
+            <li><a href="#productos">PRODUCTOS</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+            <li><a href="#quienes somos">QUIENES SOMOS</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección de inicio -->
+        <section id="inicio">
+            <h1>Bienvenido a Tu Tienda de Abrigos</h1>
+            <p>Encuentra los abrigos más elegantes para todas las temporadas.</p>
+        </section>
+
+        <!-- Sección de productos -->
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <!-- Aquí irían los productos listados -->
+        </section>
+
+        <!-- Sección de contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <!-- Formulario de contacto -->
+            <form id="formulario-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+
+                <label for="consulta">Consulta:</label>
+                <textarea id="consulta" name="consulta" required></textarea>
+
+                <label for="interes">Interés:</label>
+                <select id="interes" name="interes" required>
+                    <option value="ventas">Ventas</option>
+                    <option value="soporte">Soporte</option>
+                    <option value="general">General</option>
+                </select>
+
+                <label for="acepto">Acepto los términos y condiciones</label>
+                <input type="checkbox" id="acepto" name="acepto" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Sección del carrito de compras -->
+        <section id="carrito">
+            <h2>Carrito de Compras</h2>
+            <!-- Aquí iría el contenido del carrito -->
+        </section>
+    </main>
+
+    <!-- Scripts JavaScript al final para mejorar la carga -->
+    <script src="script.js"></script>
+</body>
+
+</html>

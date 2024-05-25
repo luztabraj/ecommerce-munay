@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    padding-top: 70px; /* Para evitar que el encabezado cubra contenido */
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilos para el header */
+#header {
+    background-color: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    transition: all 0.3s ease;
+}
+
+#header .logo h1 {
+    margin-left: 15px;
+    color: #333;
+}
+
+#header .navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+#header .navbar ul li {
+    margin-right: 20px;
+}
+
+#header .navbar ul li a {
+    transition: color 0.3s ease;
+}
+
+#header .navbar ul li a:hover {
+    color: #ff5f5f;
+}
+
+.header-social-links a {
+    margin-left: 10px;
+    color: #333;
+}
+
+/* Estilos para las secciones */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#inicio {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+#productos img {
+    max-width: 100%;
+    height: auto;
+}
+
+#contacto {
+    margin-top: 50px;
+}
+
+#formulario-contacto {
+    display: grid;
+    gap: 10px;
+}
+
+#formulario-contacto label {
+    font-weight: bold;
+}
+
+#formulario-contacto textarea {
+    height: 100px;
+}
+
+#carrito {
+    margin-top: 50px;
+}
