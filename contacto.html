@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <!-- Sección de contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <!-- Formulario de contacto -->
+            <form id="formulario-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+
+                <label for="consulta">Consulta:</label>
+                <textarea id="consulta" name="consulta" required></textarea>
+
+                <label for="interes">Interés:</label>
+                <select id="interes" name="interes" required>
+                    <option value="ventas">Ventas</option>
+                    <option value="soporte">Soporte</option>
+                    <option value="general">General</option>
+                </select>
+
+                <label for="acepto">Acepto los términos y condiciones</label>
+                <input type="checkbox" id="acepto" name="acepto" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    
+</body>
+</html>

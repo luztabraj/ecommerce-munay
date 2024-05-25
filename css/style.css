@@ -4,6 +4,7 @@ body {
     background-color: #f8f8f8;
     color: #333;
     padding-top: 70px; /* Para evitar que el encabezado cubra contenido */
+    
 }
 
 a {
@@ -76,6 +77,8 @@ h1, h2 {
 
 #contacto {
     margin-top: 50px;
+    max-width: 80%;
+    margin: auto;
 }
 
 #formulario-contacto {
@@ -91,6 +94,38 @@ h1, h2 {
     height: 100px;
 }
 
-#carrito {
-    margin-top: 50px;
+#productos {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: center;
 }
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+  }
+  .product-image {
+    width: 100%;
+    height: auto;
+  }
+  .bi-instagram{
+    color: red;
+    width: 100px;
+    height: 100px;
+  }
+  .historia {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    gap:40px;
+  }
+  .historia p{
+    max-width: 40%;
+    text-align: justify;
+
+    
+  }
+  
