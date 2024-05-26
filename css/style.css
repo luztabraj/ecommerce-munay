@@ -1,5 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto&display=swap');
+
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     background-color: #f8f8f8;
     color: #333;
     margin: 0;
@@ -59,8 +63,16 @@ h1, h2 {
 }
 
 #inicio {
+    margin-top: 2em;
     text-align: center;
     margin-bottom: 50px;
+}
+
+#inicio h1{
+    font-size: 2em;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 0.5em;
 }
 
 #contacto {
@@ -168,11 +180,28 @@ input textarea select{
     border:0.5px solid rgb(180, 167, 167);
     padding: 0.4em;
 }
+.error {
+    color: red;
+    font-size: 0.875em;
+}
+
 /*estilos para footer*/
 #footer .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3em;
-    
+    margin-top: 3em; 
+}
+/*empieza animacion*/
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.img-principal{
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
 }
