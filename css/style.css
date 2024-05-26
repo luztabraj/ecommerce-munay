@@ -168,3 +168,11 @@ input textarea select{
     border:0.5px solid rgb(180, 167, 167);
     padding: 0.4em;
 }
+/*estilos para footer*/
+#footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    
+}
