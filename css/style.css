@@ -79,7 +79,10 @@ h1, h2 {
     max-width: 50%;
     margin: 0 auto;
 }
-
+#contacto h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
 #formulario-contacto {
     display: grid;
     gap: 10px;
@@ -207,4 +210,10 @@ input textarea select{
 .img-principal{
     opacity: 0;
     animation: fadeIn 2s ease-in forwards;
+}
+.diseño-logo{
+    width: 10%;
+    height: auto;
+    display: flex;
+    justify-content: center;
 }
