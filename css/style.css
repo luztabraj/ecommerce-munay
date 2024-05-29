@@ -85,6 +85,8 @@ h1, h2 {
     gap: 10px;
     align-items: center;
 }
+
+
 #formulario-contacto button {
     width: fit-content;
     
@@ -93,6 +95,7 @@ h1, h2 {
 #formulario-contacto label {
     font-weight: bold;
 }
+
 
 #formulario-contacto textarea {
     height: 100px;
